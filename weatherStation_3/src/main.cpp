@@ -13,7 +13,7 @@
 Adafruit_SHT31 sht31 = Adafruit_SHT31();
 SFE_BMP180 pressure;
   
-#define ALTITUDE 1655.0 
+#define ALTITUDE 48.0 
 
 void setup() {
   Serial.begin(9600);
